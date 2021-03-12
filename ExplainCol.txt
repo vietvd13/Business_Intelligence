@@ -1,0 +1,41 @@
+Dataset 
+Tổng quan dataset là toàn bộ dữ liệu đặt phòng khách sạn 
+============================================ 
+Cột Hotel => Biểu thị tên khách sạn Cột is_canceled => Biểu thị là tình trạng đặt phòng (Cancel hay No Cancel)
+[==========================================================================================================================]
+Cột lead_time => Biểu thị số ngày trôi qua giữa ngày nhập đươn đặt phòng và ngày đến
+[==========================================================================================================================]
+StaysInWeekendNights => Số đêm cuối tuần (thứ bảy hoặc chủ nhật) mà khách lưu trú hoặc đặt phòng tại khách sạn
+[==========================================================================================================================]
+StaysInWeekNights => Số đêm trong tuần (thứ Hai đến thứ Sáu) mà khách lưu trú hoặc đặt phòng tại khách sạn
+[==========================================================================================================================]
+adults: Số người lớn
+[==========================================================================================================================]
+children: Số trẻ em
+[==========================================================================================================================]
+meal: Loại bữa ăn đã đặt. Các danh mục được trình bày trong các gói suất ăn khách sạn tiêu chuẩn: BO, BL và ML Không xác định / SC - không có gói bữa ăn; BB - Giường & Bữa sáng; HB - Bao bữa sáng và tối (bữa sáng và một bữa ăn khác - thường là bữa tối);  FB - Bao ăn 3 bữa (bữa sáng, bữa trưa và bữa tối)
+[==========================================================================================================================]
+country: Quốc gia
+[==========================================================================================================================]
+market_segment: Chỉ định phân khúc thị trường. Trong các danh mục, thuật ngữ “TA” có nghĩa là “Đại lý du lịch” và “TO” có nghĩa là “Nhà điều hành tour”
+[==========================================================================================================================]
+distribution_channel: Đặt trước kênh phân phối. Thuật ngữ “TA” có nghĩa là “Đại lý du lịch” và “TO” có nghĩa là “Nhà điều hành tour”
+[==========================================================================================================================]
+previous_cancellations: Số lượt đặt trước đã bị khách hàng hủy trước lượt đặt hiện tại
+[==========================================================================================================================]
+reserved_room_type: Mã loại phòng đã đặt trước. Mã được trình bày thay vì chỉ định vì lý do ẩn danh(đã chỉnh sửa)
+[==========================================================================================================================]
+booking_changes: Số lượng thay đổi / sửa đổi đối với đặt phòng từ thời điểm đặt phòng được nhập trên PMS cho đến thời điểm nhận phòng hoặc hủy bỏ
+[==========================================================================================================================]
+agent: Giấy tờ tùy thân của công ty du lịch đã thực hiện đặt chỗ
+[==========================================================================================================================]
+deposit_type: Cho biết nếu khách hàng đã đặt cọc để đảm bảo đặt phòng. Biến này có thể giả định ba loại; Không có tiền đặt cọc - không có khoản tiền gửi nào được thực hiện;
+[==========================================================================================================================]
+days_in_waiting_list: Số ngày đặt chỗ trong danh sách chờ trước khi nó được xác nhận cho khách hàng
+[==========================================================================================================================]
+customer_type: Loại đặt phòng, giả sử một trong bốn loại: Hợp đồng - khi đặt phòng có giao kèo hoặc loại hợp đồng khác được liên kết với nó; Nhóm - khi đặt chỗ được liên kết với một nhóm; Tạm thời - khi đặt chỗ không thuộc nhóm hoặc hợp đồng và không liên quan đến đặt chỗ tạm thời khác; Bên nhất thời - khi đặt chỗ chỉ là tạm thời, nhưng được liên kết với ít nhất là đặt chỗ tạm thời khác
+[==========================================================================================================================]
+adr: Tỷ lệ hàng ngày trung bình như đã xác định
+[==========================================================================================================================]
+required_car_parking_spaces: Số lượng chỗ đậu xe theo yêu cầu của khách hàng reservation_status: Trạng thái đặt phòng cuối cùng, giả sử một trong ba loại: Cancel – khách hàng đã hủy đặt phòng check out – khách hàng đã làm thủ tục nhưng đã khởi hành No-Show - khách hàng đã không nhận phòng và đã thông báo cho khách sạn về lý do tại sao reservation_status_date: Ngày đặt trạng thái cuối cùng. Biến này có thể được sử dụng cùng với ReservationStatus để hiểu khi nào đặt phòng bị hủy hoặc khi nào khách hàng trả phòng khách sạn
+
